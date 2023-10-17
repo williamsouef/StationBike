@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		B30029362ADE66DD00C32864 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30029352ADE66DD00C32864 /* AppDelegate.swift */; };
 		B30029382ADE66DD00C32864 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30029372ADE66DD00C32864 /* SceneDelegate.swift */; };
-		B300293A2ADE66DD00C32864 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30029392ADE66DD00C32864 /* ViewController.swift */; };
+		B300293A2ADE66DD00C32864 /* MapAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30029392ADE66DD00C32864 /* MapAnnotationViewController.swift */; };
 		B300293D2ADE66DD00C32864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B300293B2ADE66DD00C32864 /* Main.storyboard */; };
 		B300293F2ADE66DE00C32864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B300293E2ADE66DE00C32864 /* Assets.xcassets */; };
 		B30029422ADE66DE00C32864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30029402ADE66DE00C32864 /* LaunchScreen.storyboard */; };
+		B300294A2ADE7E8400C32864 /* BikeStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30029492ADE7E8400C32864 /* BikeStation.swift */; };
+		B300294C2ADE83CD00C32864 /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B300294B2ADE83CD00C32864 /* MapAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B30029322ADE66DD00C32864 /* StationBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StationBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30029352ADE66DD00C32864 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B30029372ADE66DD00C32864 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B30029392ADE66DD00C32864 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B30029392ADE66DD00C32864 /* MapAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationViewController.swift; sourceTree = "<group>"; };
 		B300293C2ADE66DD00C32864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B300293E2ADE66DE00C32864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30029412ADE66DE00C32864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B30029432ADE66DE00C32864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30029492ADE7E8400C32864 /* BikeStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeStation.swift; sourceTree = "<group>"; };
+		B300294B2ADE83CD00C32864 /* MapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				B30029352ADE66DD00C32864 /* AppDelegate.swift */,
 				B30029372ADE66DD00C32864 /* SceneDelegate.swift */,
-				B30029392ADE66DD00C32864 /* ViewController.swift */,
+				B30029392ADE66DD00C32864 /* MapAnnotationViewController.swift */,
+				B30029492ADE7E8400C32864 /* BikeStation.swift */,
+				B300294B2ADE83CD00C32864 /* MapAnnotation.swift */,
 				B300293B2ADE66DD00C32864 /* Main.storyboard */,
 				B300293E2ADE66DE00C32864 /* Assets.xcassets */,
 				B30029402ADE66DE00C32864 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B300293A2ADE66DD00C32864 /* ViewController.swift in Sources */,
+				B300293A2ADE66DD00C32864 /* MapAnnotationViewController.swift in Sources */,
+				B300294C2ADE83CD00C32864 /* MapAnnotation.swift in Sources */,
+				B300294A2ADE7E8400C32864 /* BikeStation.swift in Sources */,
 				B30029362ADE66DD00C32864 /* AppDelegate.swift in Sources */,
 				B30029382ADE66DD00C32864 /* SceneDelegate.swift in Sources */,
 			);
